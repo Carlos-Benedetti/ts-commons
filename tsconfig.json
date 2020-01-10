@@ -6,6 +6,7 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "declaration": true,
+    "module": "ES2015",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
