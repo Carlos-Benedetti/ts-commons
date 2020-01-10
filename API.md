@@ -16,7 +16,6 @@
 
 <a name="globalsmd"></a>
 
-[ts-commons](README.md) › [Globals](#globalsmd)
 
 # ts-commons
 
@@ -31,7 +30,6 @@
 
 <a name="classesobjectutilsmd"></a>
 
-[ts-commons](../README.md) › [Globals](#globalsmd) › [ObjectUtils](#classesobjectutilsmd)
 
 ## Class: ObjectUtils
 
@@ -63,8 +61,6 @@
 
 ▸ **copy**(`obj`: any): *any*
 
-*Defined in [object-utils.ts:114](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L114)*
-
 Function used to copy an object.
 
 **Parameters:**
@@ -82,8 +78,6 @@ ___
 #### `Static` firstNonEmpty
 
 ▸ **firstNonEmpty**(...`obj`: Array‹any›): *any*
-
-*Defined in [object-utils.ts:96](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L96)*
 
 Function used to get first things not empty.
 
@@ -103,8 +97,6 @@ ___
 
 ▸ **firstNonNull**(...`obj`: Array‹any›): *any*
 
-*Defined in [object-utils.ts:87](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L87)*
-
 Function used to get first things not null.
 
 **Parameters:**
@@ -122,8 +114,6 @@ ___
 #### `Static` format
 
 ▸ **format**(`message`: string, `data`: any): *string*
-
-*Defined in [object-utils.ts:197](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L197)*
 
 Function used to format an string.
 Example:
@@ -148,8 +138,6 @@ ___
 
 ▸ **getattr**(`obj`: any, `name`: string | null | Array‹string›, `defaultValue`: any): *any*
 
-*Defined in [object-utils.ts:39](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L39)*
-
 Function used to get an attr inside an object.
 
 **Parameters:**
@@ -170,8 +158,6 @@ ___
 
 ▸ **isCallable**(`obj`: any): *Boolean*
 
-*Defined in [object-utils.ts:105](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L105)*
-
 Function used to check if something is calleble.
 
 **Parameters:**
@@ -189,8 +175,6 @@ ___
 #### `Static` isEmpty
 
 ▸ **isEmpty**(`obj`: any): *boolean*
-
-*Defined in [object-utils.ts:168](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L168)*
 
 Function used to check if something is empty.
 
@@ -210,8 +194,6 @@ ___
 
 ▸ **isString**(`obj`: any): *boolean*
 
-*Defined in [object-utils.ts:159](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L159)*
-
 Function used to check if a variable is string.
 
 **Parameters:**
@@ -230,8 +212,6 @@ ___
 
 ▸ **recursiveAssign**(...`obj`: Array‹any›): *any*
 
-*Defined in [object-utils.ts:7](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L7)*
-
 Function used to assign recursively objects at target.
 
 **Parameters:**
@@ -249,8 +229,6 @@ ___
 #### `Static` round
 
 ▸ **round**(`num`: number, `len?`: number): *number*
-
-*Defined in [object-utils.ts:229](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L229)*
 
 Function used to rounds a number
 
@@ -283,8 +261,6 @@ ___
 
 ▸ **setattr**(`obj`: any, `name`: string | Array‹string›, `value`: any): *boolean*
 
-*Defined in [object-utils.ts:67](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L67)*
-
 Function used to set an attr inside an object.
 
 **Parameters:**
@@ -305,8 +281,6 @@ ___
 
 ▸ **strToBoolOrStr**(`str`: any): *Boolean | string*
 
-*Defined in [object-utils.ts:123](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L123)*
-
 Function used to check if an string is bool or is just a string.
 
 **Parameters:**
@@ -324,8 +298,6 @@ ___
 #### `Static` zipToObject
 
 ▸ **zipToObject**(`keys`: Array‹string›, `values`: Array‹any›): *any*
-
-*Defined in [object-utils.ts:143](https://github.com/Carlos-Benedetti/ts-commons/blob/bfd95d1/src/object-utils.ts#L143)*
 
 Function used to mount an object with two arrays.
 
