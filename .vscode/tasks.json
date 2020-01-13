@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "docs",
+            "problemMatcher": []
+        },{
+            "label": "Roll back stable",
+            "type": "shell",
+            "command": "git checkout bfd95d14f6be4c36e4a0cd7013ed4d3be221ccb5",
+            "problemMatcher": []
+        },{
+            "label": "clean changes",
+            "type": "shell",
+            "command": "git checkout origin master",
+            "problemMatcher": []
+        }
+    ]
+}
